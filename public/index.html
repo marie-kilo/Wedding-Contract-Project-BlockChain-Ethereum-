@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Contract Creation</title>
+    <!-- Include Web3.js from CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.6.0/dist/web3.min.js"></script>
+     
+</head>
+<body>
+    <h1>Wedding Contract Creation</h1>
+    <form id="weddingForm">
+        <input type="text" id="partner1" placeholder="Partner 1 Name" required>
+        <input type="text" id="partner2" placeholder="Partner 2 Name" required>
+        <button type="submit">Create Contract</button>
+    </form>
+    <div id="transactionResult"></div>
+
+    <div>
+        <h1> Checking Wedding Contract </h1>
+        <input type="text" id="contractAddress" placeholder="Enter Contract Address">
+    <button id="verify">Verify</button>
+    <div id="verificationResult"></div>
+
+    <script src="app.js"></script>
+    
+</body>
+</html>
+
